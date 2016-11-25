@@ -1,0 +1,23 @@
+ html, body, .container-fluid, .h1 {
+ 	padding-bottom: 25px;
+ }
+
+ .navbar {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 40px;
+	text-align: center;
+}
+li {
+	display: inline;
+    float: left;
+}
+li a {
+	text-align: center;
+	padding: 30px 80px;
+	text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
