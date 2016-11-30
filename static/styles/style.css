@@ -1,12 +1,21 @@
  html, body, .container-fluid, .h1 {
- 	padding-bottom: 25px;
+ 	padding-bottom: 20px;
  }
+
+ h1 { 
+    font-family: 'Yrsa', serif;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+html, .container, .row, .col-sm-6 { 
+    padding-left: 20px;
+}
 
  .navbar {
     overflow: hidden;
     list-style-type: none;
     margin: 0 auto;
-    padding-left: 40px;
+    padding-left: 30px;
 	text-align: center;
 }
 li {
